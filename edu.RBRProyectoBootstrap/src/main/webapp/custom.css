@@ -1,0 +1,74 @@
+@media(max-width:576px){
+        .fondo {
+                background-image: url(Imagenes/fondo.jpg);
+                background-size: 100%;
+                background-attachment: fixed;
+        }
+}
+@media(max-width: 1024px){
+        .fondo {
+                background-image: url(Imagenes/fondo.jpg);
+                background-size: 100%;
+                background-attachment: fixed;
+        }
+}
+@media(min-width:1025px){
+        .fondo {
+                background-image: url(Imagenes/fondo.jpg);
+                background-repeat:repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+        }
+}
+.contenedor{
+        background-color: rgba(255, 255,255, 0.8);
+}
+nav {
+   background-color: #333;
+   overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.carousel-item{
+	
+}
