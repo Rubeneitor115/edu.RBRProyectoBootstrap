@@ -98,3 +98,8 @@ ul {
 		background-color: white;
 		color: blue;
 	}
+	.centro{
+		align-items: center;
+		align-content: center;
+		text-align: center;
+	}
